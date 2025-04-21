@@ -1,11 +1,12 @@
 import React from 'react'
+import mario from '../assets/Images/mario.jpg'
 
 function Home() {
     return (
         <div className="flex items-center space-x-4">
             <div>
                 <img 
-                    src="../src/assets/Images/mario.jpg" 
+                    src={mario} 
                     className="w-20 h-20 object-cover rounded-md"
                 />
             </div>

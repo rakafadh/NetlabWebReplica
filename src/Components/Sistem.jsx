@@ -1,4 +1,5 @@
 import React from 'react';
+import OSLogo from '../assets/Images/OSLogo.svg';
 
 function Sistem() {
     return (
@@ -6,7 +7,7 @@ function Sistem() {
             <div className="container flex items-center space-x-4">
                 <div>
                     <img
-                        src="../src/assets/Images/OSLogo.svg"
+                        src={OSLogo}
                         className="w-20 h-20"
                     />
                 </div>

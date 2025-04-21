@@ -1,4 +1,5 @@
 import React from 'react';
+import DMJLogo from '../assets/Images/DMJLogo.svg';
 
 function Jaringan() {
     return (
@@ -6,7 +7,7 @@ function Jaringan() {
             <div className="container flex items-center space-x-4">
                 <div>
                     <img
-                        src="../src/assets/Images/DMJLogo.svg"
+                        src={DMJLogo}
                         className="w-20 h-20"
                     />
                 </div>

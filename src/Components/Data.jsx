@@ -1,4 +1,5 @@
 import React from 'react';
+import SBDLogo from '../assets/Images/SBDLogo.svg';
 
 function Data() {
     return (
@@ -6,7 +7,7 @@ function Data() {
             <div className="container flex items-center space-x-4">
                 <div>
                     <img
-                        src="../src/assets/Images/SBDLogo.svg"
+                        src={SBDLogo}
                         className="w-20 h-20"
                     />
                 </div>
